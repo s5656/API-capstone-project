@@ -1,0 +1,178 @@
+{
+	"info": {
+		"_postman_id": "bc2f5a10-b424-4d47-97b2-fa9f40ec58f9",
+		"name": "CapstoneProjects",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25195746"
+	},
+	"item": [
+		{
+			"name": "allData",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "63bfcba1bcd0384349bb5a1f",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{capurl}}/user/?id=60d0fe4f5311236168a109fb",
+					"host": [
+						"{{capurl}}"
+					],
+					"path": [
+						"user",
+						""
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "60d0fe4f5311236168a109fb"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "userData",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "{{app-id}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n            \"id\": \"60d0fe4f5311236168a109ca\",\n            \"title\": \"ms\",\n            \"firstName\": \"Sara\",\n            \"lastName\": \"Andersen\",\n            \"email\":\"Saraande@gmial.ocm\",\n            \"picture\": \"https://randomuser.me/api/portraits/women/58.jpg\"\n        }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{capurl}}/user/create",
+					"host": [
+						"{{capurl}}"
+					],
+					"path": [
+						"user",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getTheData",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "{{app-id}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{capurl}}/user/63bfec69b91006f0d66f0c0f",
+					"host": [
+						"{{capurl}}"
+					],
+					"path": [
+						"user",
+						"63bfec69b91006f0d66f0c0f"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "postDogPost",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "{{app-id}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n            \"id\": \"63bfec69b91006f0d66f0c0f\",\n            \"image\": \"https://img.dummyapi.io/photo-1515376721779-7db6951da88d.jpg\",\n            \"likes\": 16,\n            \"tags\": [\n                \"dog\",\n                \"pet\",\n                \"canine\"\n            ],\n            \"owner\": \"63bfec69b91006f0d66f0c0f\"\n            \n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{capurl}}/post/create",
+					"host": [
+						"{{capurl}}"
+					],
+					"path": [
+						"post",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getPost",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "{{app-id}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{capurl}}/post/{{post_id}}",
+					"host": [
+						"{{capurl}}"
+					],
+					"path": [
+						"post",
+						"{{post_id}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deletePost",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "{{app-id}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{capurl}}/post/63bff0574b1911d066e321d6",
+					"host": [
+						"{{capurl}}"
+					],
+					"path": [
+						"post",
+						"63bff0574b1911d066e321d6"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
