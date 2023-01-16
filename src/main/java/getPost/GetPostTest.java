@@ -13,7 +13,6 @@ public class GetPostTest {
     @Test
     public void shoudGetPostDetails(){
         String postId = "60d21b7f67d0d8992e610d2b";
-
         GetPostResponse getPostResponse=postService.getPostResponse(postId);
         Assert.assertEquals(getPostResponse.getStatusCode(),200);
         Assert.assertEquals(getPostResponse.getId(),postId);
