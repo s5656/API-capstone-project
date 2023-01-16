@@ -34,6 +34,4 @@ public class PostResponse {
         Assert.assertEquals(this.getOwner().getId(),requestBody.getOwner());
     }
 
-
-
 }
