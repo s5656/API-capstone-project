@@ -2,6 +2,7 @@ package postServiceClasses;
 
 import createPost.PostRequestBody;
 import createPost.PostResponse;
+import deletePost.DeletePostResponse;
 import getPost.GetPostResponse;
 import io.restassured.response.Response;
 
@@ -20,5 +21,14 @@ public class PostService {
         getPostResponse.setStatusCode(statusCode);
 
         return getPostResponse ;
+    }
+    public DeletePostResponse deletePostById(String deletePostId)
+    {
+        Response response = new PostClass().delete(deletePostId);
+        int statusCode =   response.statusCode();
+        DeletePostResponse deletePostResponse = response.as(DeletePostResponse.class);
+        deletePostResponse.setStatusCode(statusCode);
+        return deletePostResponse;
+
     }
 }

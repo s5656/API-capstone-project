@@ -30,4 +30,15 @@ public class PostClass {
                 .body();
         return response;
     }
+    public Response delete(String deleteId) {
+        Response response=given()
+                .header("app-id", "63bfea5ba39ed71aa088d9a7")
+                .when()
+                .pathParam("post_id",deleteId)
+                .delete("https://dummyapi.io/data/v1/post/{post_id}");
+        response.then()
+                .log()
+                .body();
+        return response;
+    }
 }
