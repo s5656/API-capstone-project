@@ -28,7 +28,7 @@ public class IntegrationTests {
         int queryParamValue=10;
         UserRequestBody userRequestBody=new UserRequestBody.Builder().build();
         UserResponse userResponse=userService.userResponse(userRequestBody);
-//act
+        //act
         PostRequestBody postRequestBody=new PostRequestBody.Builder().build();
         PostResponse postResponse=postService.createPostResponse(postRequestBody);
 
