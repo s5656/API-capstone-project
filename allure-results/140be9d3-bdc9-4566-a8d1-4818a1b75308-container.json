@@ -1,0 +1,1 @@
+{"uuid":"140be9d3-bdc9-4566-a8d1-4818a1b75308","name":"io.endtoEndTest.IntegrationTests","children":["6e5e3bff-5e9e-46f3-8be5-1ce0cfba2c1a"],"befores":[{"name":"beforeClass","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1675696745945,"stop":1675696745951}],"afters":[],"start":1675696745876,"stop":1675696751414}

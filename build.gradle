@@ -2,6 +2,8 @@ plugins {
     id 'java'
     id 'java-library'
     id 'maven-publish'
+    id 'application'
+    id 'io.qameta.allure' version '2.11.0'
 }
 
 group 'org.example'
@@ -19,10 +21,17 @@ dependencies {
     implementation 'org.testng:testng:7.7.0'
     implementation 'org.snakeyaml:snakeyaml-engine:2.4'
     annotationProcessor group: 'org.projectlombok', name: 'lombok', version: '1.18.24'
+    implementation group: 'io.qameta.allure', name: 'allure-testng', version: '2.20.1'
+    implementation group: 'io.qameta.allure', name: 'allure-rest-assured', version: '2.20.1'
 }
 
 test {
     useTestNG()
+    testLogging {
+        events "passed", "skipped", "failed"
+        showStandardStreams = true
+    }
+    systemProperties System.properties
 }
 java {
     modularity.inferModulePath = true

@@ -1,0 +1,40 @@
+{
+&    "id": "63e11cbc3ffdba7a80538264",
+M    "image": "https://img.dummyapi.io/photo-1564694202779-bc908c327862.jpg",
+    "likes": 0,
+    "link": "",
+    "tags": [
+        "animal",
+        "dog",
+        "golden retriever"
+    ],
+(    "text": "adult Labrador retriever",
+/    "publishDate": "2023-02-06T15:29:00.694Z",
+/    "updatedDate": "2023-02-06T15:29:00.694Z",
+    "owner": {
+*        "id": "63da5a502bea7749fb67bc7a",
+        "title": "mr",
+        "firstName": "Sumit",
+        "lastName": "Chavan"
+    }
+}
+{
+&    "id": "63e11cbc3ffdba7a80538264",
+M    "image": "https://img.dummyapi.io/photo-1564694202779-bc908c327862.jpg",
+    "likes": 0,
+    "link": "",
+    "tags": [
+        "animal",
+        "dog",
+        "golden retriever"
+    ],
+(    "text": "adult Labrador retriever",
+/    "publishDate": "2023-02-06T15:29:00.694Z",
+/    "updatedDate": "2023-02-06T15:29:00.694Z",
+    "owner": {
+*        "id": "63da5a502bea7749fb67bc7a",
+        "title": "mr",
+        "firstName": "Sumit",
+        "lastName": "Chavan"
+    }
+}
