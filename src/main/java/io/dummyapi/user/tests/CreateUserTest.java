@@ -14,8 +14,11 @@ public class CreateUserTest {
     }
     @Test
     public void shouldCreateAnUser(){
+        //Arrange
         UserRequestBody userRequest=new UserRequestBody.Builder().build();
+        //Act
         UserResponse userResponse = userService.userResponse(userRequest);
+        //Assert
         userResponse.assertUser(userRequest);
     }
 }

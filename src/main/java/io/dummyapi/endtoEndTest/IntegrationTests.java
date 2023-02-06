@@ -28,15 +28,15 @@ public class IntegrationTests {
         int queryParamValue=10;
         UserRequestBody userRequestBody=new UserRequestBody.Builder().build();
         UserResponse userResponse=userService.userResponse(userRequestBody);
-
+//act
         PostRequestBody postRequestBody=new PostRequestBody.Builder().build();
         PostResponse postResponse=postService.createPostResponse(postRequestBody);
 
         GetPostResponse getPostResponse = postService.getPostResponse(postResponse.getId());
+        DeletePostResponse deletePostResponse=postService.deletePostById(postResponse.getId());
 
         GetUserResponse getUserResponse =userService.getUserResponse(queryParamName,queryParamValue);
 
-        DeletePostResponse deletePostResponse=postService.deletePostById(postResponse.getId());
         //Assert
         userResponse.assertUser(userRequestBody);
         postResponse.assertPostCreate(postRequestBody);
