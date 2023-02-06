@@ -14,15 +14,16 @@ public class UserErrorResponse {
     private String error;
 
     @Getter
-    public static class Data{
+    public static class Data {
         private String email;
         private String message;
 
     }
+
     public void assertUserErrorData(UserRequestBody requestBody) {
-        Assert.assertEquals(this.getStatuscode(),400);
-        Assert.assertEquals(this.getError(),"BODY_NOT_VALID");
-        Assert.assertEquals(this.getData().getEmail(),"Email already used");
+        Assert.assertEquals(this.getStatuscode(), 400);
+        Assert.assertEquals(this.getError(), "BODY_NOT_VALID");
+        Assert.assertEquals(this.getData().getEmail(), "Email already used");
 
     }
 

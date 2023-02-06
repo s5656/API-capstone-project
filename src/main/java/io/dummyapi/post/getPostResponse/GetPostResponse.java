@@ -1,4 +1,5 @@
 package io.dummyapi.post.getPostResponse;
+
 import lombok.Getter;
 import lombok.Setter;
 

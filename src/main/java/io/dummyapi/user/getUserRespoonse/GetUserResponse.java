@@ -5,8 +5,9 @@ import lombok.Getter;
 import lombok.Setter;
 
 import java.util.List;
+
 @Getter
-public class GetUserResponse{
+public class GetUserResponse {
     @Setter
     private int statusCode;
     @JsonProperty("data")
@@ -16,21 +17,23 @@ public class GetUserResponse{
     private String page;
 
     @Getter
-    public static class Pagination{
+    public static class Pagination {
         private int total;
         private int pages;
         private int limit;
         private Links links;
         private int page;
     }
+
     @Getter
-    public static class Links{
+    public static class Links {
         private String next;
         private String current;
         private String previous;
     }
+
     @Getter
-    public static class Data{
+    public static class Data {
         private String firstName;
         private String lastName;
         private String id;

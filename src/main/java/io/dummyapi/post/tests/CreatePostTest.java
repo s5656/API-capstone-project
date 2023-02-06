@@ -8,14 +8,16 @@ import io.dummyapi.post.postServiceClasses.PostService;
 
 public class CreatePostTest {
     private PostService postService;
+
     @BeforeClass
-    public void beforeClass(){
-        postService=new PostService();
+    public void beforeClass() {
+        postService = new PostService();
     }
+
     @Test
-    public void shouldCreateNewPost(){
-        PostRequestBody postRequest=new PostRequestBody.Builder().build();
-        PostResponse postResponse =postService.createPostResponse(postRequest);
+    public void shouldCreateNewPost() {
+        PostRequestBody postRequest = new PostRequestBody.Builder().build();
+        PostResponse postResponse = postService.createPostResponse(postRequest);
         postResponse.assertPostCreate(postRequest);
     }
 

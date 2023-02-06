@@ -5,6 +5,7 @@ import lombok.Setter;
 import org.testng.Assert;
 
 import java.util.List;
+
 @Getter
 public class PostResponse {
     @Setter
@@ -28,10 +29,9 @@ public class PostResponse {
         private String id;
     }
 
-    public void assertPostCreate(PostRequestBody requestBody)
-    {
-        Assert.assertEquals(this.getStatusCode(),200);
-        Assert.assertEquals(this.getOwner().getId(),requestBody.getOwner());
+    public void assertPostCreate(PostRequestBody requestBody) {
+        Assert.assertEquals(this.getStatusCode(), 200);
+        Assert.assertEquals(this.getOwner().getId(), requestBody.getOwner());
     }
 
 }

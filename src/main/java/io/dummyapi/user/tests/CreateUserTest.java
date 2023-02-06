@@ -8,14 +8,16 @@ import io.dummyapi.user.userServiceClasses.UserService;
 
 public class CreateUserTest {
     private UserService userService;
+
     @BeforeClass
-    public void beforeClass(){
-        userService=new UserService();
+    public void beforeClass() {
+        userService = new UserService();
     }
+
     @Test
-    public void shouldCreateAnUser(){
+    public void shouldCreateAnUser() {
         //Arrange
-        UserRequestBody userRequest=new UserRequestBody.Builder().build();
+        UserRequestBody userRequest = new UserRequestBody.Builder().build();
         //Act
         UserResponse userResponse = userService.userResponse(userRequest);
         //Assert

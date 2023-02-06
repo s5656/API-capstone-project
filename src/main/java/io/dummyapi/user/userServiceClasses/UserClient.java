@@ -17,10 +17,11 @@ public class UserClient {
         response.then().log().body();
         return response;
     }
-    public Response getAll(String queryParamName, int queryParamValue){
-        Response response=given()
-                .header("app-id","63bfea5ba39ed71aa088d9a7")
-                .queryParam(queryParamName,queryParamValue)
+
+    public Response getAll(String queryParamName, int queryParamValue) {
+        Response response = given()
+                .header("app-id", "63bfea5ba39ed71aa088d9a7")
+                .queryParam(queryParamName, queryParamValue)
                 .when()
                 .get("https://dummyapi.io/data/v1/user?created=1");
         response.then().log().body();

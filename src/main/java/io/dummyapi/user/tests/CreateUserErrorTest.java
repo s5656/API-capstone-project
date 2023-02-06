@@ -10,14 +10,16 @@ import io.dummyapi.user.userServiceClasses.UserService;
 
 public class CreateUserErrorTest {
     private UserService userService;
+
     @BeforeClass
-    public void beforeClass(){
-        userService=new UserService();
+    public void beforeClass() {
+        userService = new UserService();
     }
+
     @Test
-    public void shouldNotAllowUserWithInvalidEmail(){
+    public void shouldNotAllowUserWithInvalidEmail() {
         //Arrange
-        UserRequestBody userRequest=new UserRequestBody.Builder().build();
+        UserRequestBody userRequest = new UserRequestBody.Builder().build();
         userService.userResponse(userRequest);
         //act
         UserErrorResponse userErrorResponse = userService.createUserExpectingError(userRequest);
