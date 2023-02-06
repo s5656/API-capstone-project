@@ -1,9 +1,9 @@
 package io.dummyapi.post.postServiceClasses;
 
-import io.dummyapi.post.createPost.response.PostRequestBody;
-import io.dummyapi.post.createPost.response.PostResponse;
-import io.dummyapi.post.deletePost.response.DeletePostResponse;
-import io.dummyapi.post.getPost.response.GetPostResponse;
+import io.dummyapi.post.createPostResponse.PostRequestBody;
+import io.dummyapi.post.createPostResponse.PostResponse;
+import io.dummyapi.post.deletePostResponse.DeletePostResponse;
+import io.dummyapi.post.getPostResponse.GetPostResponse;
 import io.restassured.response.Response;
 
 public class PostService {

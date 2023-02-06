@@ -1,6 +1,6 @@
 package io.dummyapi.post.postServiceClasses;
 
-import io.dummyapi.post.createPost.response.PostRequestBody;
+import io.dummyapi.post.createPostResponse.PostRequestBody;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 
@@ -17,7 +17,6 @@ public class PostClient {
         response.then().log().body();
         return response;
     }
-
     public Response get(String postId) {
         Response response=given()
                 .header("app-id", "63bfea5ba39ed71aa088d9a7")
