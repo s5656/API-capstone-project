@@ -13,6 +13,8 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import java.io.IOException;
+
 public class IntegrationTests {
     PostService postService;
     UserService userService;
@@ -24,7 +26,7 @@ public class IntegrationTests {
     }
 
     @Test
-    public void shouldCreateGetAndDeletePostAndUser() {
+    public void shouldCreateGetAndDeletePostAndUser() throws IOException {
         //Arrange
         String queryParamName = "limit";
         int queryParamValue = 10;

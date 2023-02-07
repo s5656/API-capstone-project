@@ -7,6 +7,8 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import java.io.IOException;
+
 public class DeletePostTest {
     private PostService postService;
 
@@ -16,7 +18,7 @@ public class DeletePostTest {
     }
 
     @Test
-    public void shouldDeletePostDetailsById() {
+    public void shouldDeletePostDetailsById() throws IOException {
         PostRequestBody requestBody = new PostRequestBody.Builder().build();
         String deleteId = postService.createPostResponse(requestBody).getId();
         DeletePostResponse deletePostResponse = postService.deletePostById(deleteId);

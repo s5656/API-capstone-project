@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="endtoEndTest.IntegrationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-07T06:00:28" hostname="TestVagrants-MacBook-Pro.local" time="12.217">
+<testsuite name="endtoEndTest.IntegrationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-07T12:22:52" hostname="TestVagrants-MacBook-Pro.local" time="6.874">
   <properties/>
-  <testcase name="shouldCreateGetAndDeletePostAndUser" classname="endtoEndTest.IntegrationTests" time="12.217"/>
+  <testcase name="shouldCreateGetAndDeletePostAndUser" classname="endtoEndTest.IntegrationTests" time="6.874"/>
   <system-out><![CDATA[{
-    "id": "63e1e9063425cf04bd90da8b",
+    "id": "63e242a00db0c29f40034c69",
     "title": "mr",
     "firstName": "Sumit",
     "lastName": "Chavan",
-    "email": "03cda698-a839-4ff9-bcbd-08178eb33044@gmail.com",
-    "registerDate": "2023-02-07T06:00:38.620Z",
-    "updatedDate": "2023-02-07T06:00:38.620Z"
+    "email": "66cd41df-e012-4929-b405-a8fcc485f785@gmail.com",
+    "registerDate": "2023-02-07T12:22:56.814Z",
+    "updatedDate": "2023-02-07T12:22:56.814Z"
 }
 {
-    "id": "63e1e9073425cf358590da91",
+    "id": "63e242a10386ff0210e208ab",
     "image": "https://img.dummyapi.io/photo-1564694202779-bc908c327862.jpg",
     "likes": 0,
     "link": "",
@@ -22,8 +22,8 @@
         "golden retriever"
     ],
     "text": "adult Labrador retriever",
-    "publishDate": "2023-02-07T06:00:39.314Z",
-    "updatedDate": "2023-02-07T06:00:39.314Z",
+    "publishDate": "2023-02-07T12:22:57.627Z",
+    "updatedDate": "2023-02-07T12:22:57.627Z",
     "owner": {
         "id": "63da5a502bea7749fb67bc7a",
         "title": "mr",
@@ -32,7 +32,7 @@
     }
 }
 {
-    "id": "63e1e9073425cf358590da91",
+    "id": "63e242a10386ff0210e208ab",
     "image": "https://img.dummyapi.io/photo-1564694202779-bc908c327862.jpg",
     "likes": 0,
     "link": "",
@@ -42,8 +42,8 @@
         "golden retriever"
     ],
     "text": "adult Labrador retriever",
-    "publishDate": "2023-02-07T06:00:39.314Z",
-    "updatedDate": "2023-02-07T06:00:39.314Z",
+    "publishDate": "2023-02-07T12:22:57.627Z",
+    "updatedDate": "2023-02-07T12:22:57.627Z",
     "owner": {
         "id": "63da5a502bea7749fb67bc7a",
         "title": "mr",
@@ -52,73 +52,82 @@
     }
 }
 {
-    "id": "63e1e9073425cf358590da91"
+    "id": "63e242a10386ff0210e208ab"
 }
 {
     "data": [
         {
-            "id": "63bfec69b91006f0d66f0c0f",
+            "id": "60d0fe4f5311236168a109ca",
             "title": "ms",
             "firstName": "Sara",
             "lastName": "Andersen",
             "picture": "https://randomuser.me/api/portraits/women/58.jpg"
         },
         {
-            "id": "63c11242f4d3b2c45b659ed1",
-            "title": "ms",
-            "firstName": "Sara",
-            "lastName": "Andersen"
+            "id": "60d0fe4f5311236168a109cb",
+            "title": "miss",
+            "firstName": "Edita",
+            "lastName": "Vestering",
+            "picture": "https://randomuser.me/api/portraits/med/women/89.jpg"
         },
         {
-            "id": "63c1127cf4d3b20603659f04",
+            "id": "60d0fe4f5311236168a109cc",
             "title": "ms",
-            "firstName": "Sara",
-            "lastName": "Andersen"
+            "firstName": "Adina",
+            "lastName": "Barbosa",
+            "picture": "https://randomuser.me/api/portraits/med/women/28.jpg"
         },
         {
-            "id": "63c112c0f4d3b24558659f20",
-            "title": "ms",
-            "firstName": "Sara",
-            "lastName": "Andersen"
+            "id": "60d0fe4f5311236168a109cd",
+            "title": "mr",
+            "firstName": "Roberto",
+            "lastName": "Vega",
+            "picture": "https://randomuser.me/api/portraits/med/men/25.jpg"
         },
         {
-            "id": "63c1130cf4d3b2573e659f28",
-            "title": "ms",
-            "firstName": "Sara",
-            "lastName": "Andersen"
+            "id": "60d0fe4f5311236168a109ce",
+            "title": "mr",
+            "firstName": "Rudi",
+            "lastName": "Droste",
+            "picture": "https://randomuser.me/api/portraits/med/men/83.jpg"
         },
         {
-            "id": "63c113216952cb0e4999dc9a",
-            "title": "ms",
-            "firstName": "Sara",
-            "lastName": "Andersen"
+            "id": "60d0fe4f5311236168a109cf",
+            "title": "mrs",
+            "firstName": "Carolina",
+            "lastName": "Lima",
+            "picture": "https://randomuser.me/api/portraits/med/women/5.jpg"
         },
         {
-            "id": "63c11349f4d3b2b838659f44",
-            "title": "ms",
-            "firstName": "Sara",
-            "lastName": "Andersen"
+            "id": "60d0fe4f5311236168a109d0",
+            "title": "mr",
+            "firstName": "Emre",
+            "lastName": "Asikoglu",
+            "picture": "https://randomuser.me/api/portraits/med/men/23.jpg"
         },
         {
-            "id": "63c1280c6952cbf17499ede6",
-            "title": "ms",
-            "firstName": "Sara",
-            "lastName": "Andersen"
+            "id": "60d0fe4f5311236168a109d1",
+            "title": "mr",
+            "firstName": "Kent",
+            "lastName": "Brewer",
+            "picture": "https://randomuser.me/api/portraits/med/men/52.jpg"
         },
         {
-            "id": "63c136606952cb49f799f39d",
-            "title": "ms",
-            "firstName": "Sara",
-            "lastName": "Andersen"
+            "id": "60d0fe4f5311236168a109d2",
+            "title": "mr",
+            "firstName": "Evan",
+            "lastName": "Carlson",
+            "picture": "https://randomuser.me/api/portraits/med/men/80.jpg"
         },
         {
-            "id": "63c4e94b4f923760c8cb8b3e",
-            "title": "ms",
-            "firstName": "Sara",
-            "lastName": "Andersen"
+            "id": "60d0fe4f5311236168a109d3",
+            "title": "mr",
+            "firstName": "Friedrich-Karl",
+            "lastName": "Brand",
+            "picture": "https://randomuser.me/api/portraits/med/men/7.jpg"
         }
     ],
-    "total": 76,
+    "total": 194,
     "page": 0,
     "limit": 10
 }

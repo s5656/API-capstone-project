@@ -6,6 +6,8 @@ import user.userServiceClasses.UserService;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import java.io.IOException;
+
 public class CreateUserTest {
     private UserService userService;
 
@@ -15,7 +17,7 @@ public class CreateUserTest {
     }
 
     @Test
-    public void shouldCreateAnUser() {
+    public void shouldCreateAnUser() throws IOException {
         //Arrange
         UserRequestBody userRequest = new UserRequestBody.Builder().build();
         //Act

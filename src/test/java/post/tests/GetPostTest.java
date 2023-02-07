@@ -7,6 +7,8 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import java.io.IOException;
+
 public class GetPostTest {
     private PostService postService;
 
@@ -16,7 +18,7 @@ public class GetPostTest {
     }
 
     @Test
-    public void shouldGetPostDetailsById() {
+    public void shouldGetPostDetailsById() throws IOException {
         PostRequestBody requestBody = new PostRequestBody.Builder().build();
         String getId = postService.createPostResponse(requestBody).getId();
         GetPostResponse getPostResponse = postService.getPostResponse(getId);

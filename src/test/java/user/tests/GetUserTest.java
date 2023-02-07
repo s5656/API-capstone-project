@@ -6,6 +6,8 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import java.io.IOException;
+
 public class GetUserTest {
     private UserService userService;
 
@@ -15,7 +17,7 @@ public class GetUserTest {
     }
 
     @Test
-    public void shouldGetListOfUsersOfGivenLimit() {
+    public void shouldGetListOfUsersOfGivenLimit() throws IOException {
         String queryParamName = "limit";
         int queryParamValue = 10;
         GetUserResponse getUserResponse = userService.getUserResponse(queryParamName, queryParamValue);

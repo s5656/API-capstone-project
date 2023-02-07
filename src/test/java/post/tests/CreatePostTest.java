@@ -6,6 +6,8 @@ import post.postServiceClasses.PostService;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import java.io.IOException;
+
 public class CreatePostTest {
     private PostService postService;
 
@@ -15,7 +17,7 @@ public class CreatePostTest {
     }
 
     @Test
-    public void shouldCreateNewPost() {
+    public void shouldCreateNewPost() throws IOException {
         PostRequestBody postRequest = new PostRequestBody.Builder().build();
         PostResponse postResponse = postService.createPostResponse(postRequest);
         postResponse.assertPostCreate(postRequest);

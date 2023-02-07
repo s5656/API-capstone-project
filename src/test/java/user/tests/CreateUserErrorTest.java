@@ -6,6 +6,8 @@ import user.userServiceClasses.UserService;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import java.io.IOException;
+
 public class CreateUserErrorTest {
     private UserService userService;
 
@@ -15,7 +17,7 @@ public class CreateUserErrorTest {
     }
 
     @Test
-    public void shouldNotAllowUserWithInvalidEmail() {
+    public void shouldNotAllowUserWithInvalidEmail() throws IOException {
         //Arrange
         UserRequestBody userRequest = new UserRequestBody.Builder().build();
         userService.userResponse(userRequest);
