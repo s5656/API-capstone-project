@@ -33,8 +33,3 @@ test {
     }
     systemProperties System.properties
 }
-java {
-    modularity.inferModulePath = true
-    toolchain { languageVersion.set(JavaLanguageVersion.of(18)) }
-
-}
