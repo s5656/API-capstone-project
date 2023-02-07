@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="endtoEndTest.IntegrationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-07T05:52:43" hostname="TestVagrants-MacBook-Pro.local" time="10.407">
+<testsuite name="endtoEndTest.IntegrationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-07T06:00:28" hostname="TestVagrants-MacBook-Pro.local" time="12.217">
   <properties/>
-  <testcase name="shouldCreateGetAndDeletePostAndUser" classname="endtoEndTest.IntegrationTests" time="10.407"/>
+  <testcase name="shouldCreateGetAndDeletePostAndUser" classname="endtoEndTest.IntegrationTests" time="12.217"/>
   <system-out><![CDATA[{
-    "id": "63e1e7343425cf9df390da1d",
+    "id": "63e1e9063425cf04bd90da8b",
     "title": "mr",
     "firstName": "Sumit",
     "lastName": "Chavan",
-    "email": "340cda36-8bed-4c4c-a360-216e23b62fa1@gmail.com",
-    "registerDate": "2023-02-07T05:52:52.406Z",
-    "updatedDate": "2023-02-07T05:52:52.406Z"
+    "email": "03cda698-a839-4ff9-bcbd-08178eb33044@gmail.com",
+    "registerDate": "2023-02-07T06:00:38.620Z",
+    "updatedDate": "2023-02-07T06:00:38.620Z"
 }
 {
-    "id": "63e1e7353425cf964890da23",
+    "id": "63e1e9073425cf358590da91",
     "image": "https://img.dummyapi.io/photo-1564694202779-bc908c327862.jpg",
     "likes": 0,
     "link": "",
@@ -22,8 +22,8 @@
         "golden retriever"
     ],
     "text": "adult Labrador retriever",
-    "publishDate": "2023-02-07T05:52:53.026Z",
-    "updatedDate": "2023-02-07T05:52:53.026Z",
+    "publishDate": "2023-02-07T06:00:39.314Z",
+    "updatedDate": "2023-02-07T06:00:39.314Z",
     "owner": {
         "id": "63da5a502bea7749fb67bc7a",
         "title": "mr",
@@ -32,7 +32,7 @@
     }
 }
 {
-    "id": "63e1e7353425cf964890da23",
+    "id": "63e1e9073425cf358590da91",
     "image": "https://img.dummyapi.io/photo-1564694202779-bc908c327862.jpg",
     "likes": 0,
     "link": "",
@@ -42,8 +42,8 @@
         "golden retriever"
     ],
     "text": "adult Labrador retriever",
-    "publishDate": "2023-02-07T05:52:53.026Z",
-    "updatedDate": "2023-02-07T05:52:53.026Z",
+    "publishDate": "2023-02-07T06:00:39.314Z",
+    "updatedDate": "2023-02-07T06:00:39.314Z",
     "owner": {
         "id": "63da5a502bea7749fb67bc7a",
         "title": "mr",
@@ -52,7 +52,7 @@
     }
 }
 {
-    "id": "63e1e7353425cf964890da23"
+    "id": "63e1e9073425cf358590da91"
 }
 {
     "data": [
@@ -118,7 +118,7 @@
             "lastName": "Andersen"
         }
     ],
-    "total": 73,
+    "total": 76,
     "page": 0,
     "limit": 10
 }

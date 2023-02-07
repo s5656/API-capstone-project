@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="post.tests.DeletePostTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-07T05:52:59" hostname="TestVagrants-MacBook-Pro.local" time="0.787">
+<testsuite name="post.tests.DeletePostTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-07T06:00:45" hostname="TestVagrants-MacBook-Pro.local" time="1.13">
   <properties/>
-  <testcase name="shouldDeletePostDetailsById" classname="post.tests.DeletePostTest" time="0.787"/>
+  <testcase name="shouldDeletePostDetailsById" classname="post.tests.DeletePostTest" time="1.13"/>
   <system-out><![CDATA[{
-    "id": "63e1e73c3425cf769b90da3f",
+    "id": "63e1e90e3425cfd5f590daad",
     "image": "https://img.dummyapi.io/photo-1564694202779-bc908c327862.jpg",
     "likes": 0,
     "link": "",
@@ -13,8 +13,8 @@
         "golden retriever"
     ],
     "text": "adult Labrador retriever",
-    "publishDate": "2023-02-07T05:53:00.789Z",
-    "updatedDate": "2023-02-07T05:53:00.789Z",
+    "publishDate": "2023-02-07T06:00:46.913Z",
+    "updatedDate": "2023-02-07T06:00:46.913Z",
     "owner": {
         "id": "63da5a502bea7749fb67bc7a",
         "title": "mr",
@@ -23,7 +23,7 @@
     }
 }
 {
-    "id": "63e1e73c3425cf769b90da3f"
+    "id": "63e1e90e3425cfd5f590daad"
 }
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
