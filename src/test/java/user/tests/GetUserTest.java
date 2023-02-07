@@ -23,6 +23,5 @@ public class GetUserTest {
         Assert.assertEquals(getUserResponse.getStatusCode(), 200);
         Assert.assertEquals(getUserResponse.getLimit(), 10);
         Assert.assertEquals(getUserResponse.getDataList().size(), 10);
-        Assert.fail();
     }
 }
