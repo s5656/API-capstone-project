@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="post.tests.CreatePostTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-07T05:52:54" hostname="TestVagrants-MacBook-Pro.local" time="5.516">
+  <properties/>
+  <testcase name="shouldCreateNewPost" classname="post.tests.CreatePostTest" time="5.516"/>
+  <system-out><![CDATA[{
+    "id": "63e1e73c3425cf2d3590da39",
+    "image": "https://img.dummyapi.io/photo-1564694202779-bc908c327862.jpg",
+    "likes": 0,
+    "link": "",
+    "tags": [
+        "animal",
+        "dog",
+        "golden retriever"
+    ],
+    "text": "adult Labrador retriever",
+    "publishDate": "2023-02-07T05:53:00.320Z",
+    "updatedDate": "2023-02-07T05:53:00.320Z",
+    "owner": {
+        "id": "63da5a502bea7749fb67bc7a",
+        "title": "mr",
+        "firstName": "Sumit",
+        "lastName": "Chavan"
+    }
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

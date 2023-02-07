@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="endtoEndTest.IntegrationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-07T05:52:43" hostname="TestVagrants-MacBook-Pro.local" time="10.407">
+  <properties/>
+  <testcase name="shouldCreateGetAndDeletePostAndUser" classname="endtoEndTest.IntegrationTests" time="10.407"/>
+  <system-out><![CDATA[{
+    "id": "63e1e7343425cf9df390da1d",
+    "title": "mr",
+    "firstName": "Sumit",
+    "lastName": "Chavan",
+    "email": "340cda36-8bed-4c4c-a360-216e23b62fa1@gmail.com",
+    "registerDate": "2023-02-07T05:52:52.406Z",
+    "updatedDate": "2023-02-07T05:52:52.406Z"
+}
+{
+    "id": "63e1e7353425cf964890da23",
+    "image": "https://img.dummyapi.io/photo-1564694202779-bc908c327862.jpg",
+    "likes": 0,
+    "link": "",
+    "tags": [
+        "animal",
+        "dog",
+        "golden retriever"
+    ],
+    "text": "adult Labrador retriever",
+    "publishDate": "2023-02-07T05:52:53.026Z",
+    "updatedDate": "2023-02-07T05:52:53.026Z",
+    "owner": {
+        "id": "63da5a502bea7749fb67bc7a",
+        "title": "mr",
+        "firstName": "Sumit",
+        "lastName": "Chavan"
+    }
+}
+{
+    "id": "63e1e7353425cf964890da23",
+    "image": "https://img.dummyapi.io/photo-1564694202779-bc908c327862.jpg",
+    "likes": 0,
+    "link": "",
+    "tags": [
+        "animal",
+        "dog",
+        "golden retriever"
+    ],
+    "text": "adult Labrador retriever",
+    "publishDate": "2023-02-07T05:52:53.026Z",
+    "updatedDate": "2023-02-07T05:52:53.026Z",
+    "owner": {
+        "id": "63da5a502bea7749fb67bc7a",
+        "title": "mr",
+        "firstName": "Sumit",
+        "lastName": "Chavan"
+    }
+}
+{
+    "id": "63e1e7353425cf964890da23"
+}
+{
+    "data": [
+        {
+            "id": "63bfec69b91006f0d66f0c0f",
+            "title": "ms",
+            "firstName": "Sara",
+            "lastName": "Andersen",
+            "picture": "https://randomuser.me/api/portraits/women/58.jpg"
+        },
+        {
+            "id": "63c11242f4d3b2c45b659ed1",
+            "title": "ms",
+            "firstName": "Sara",
+            "lastName": "Andersen"
+        },
+        {
+            "id": "63c1127cf4d3b20603659f04",
+            "title": "ms",
+            "firstName": "Sara",
+            "lastName": "Andersen"
+        },
+        {
+            "id": "63c112c0f4d3b24558659f20",
+            "title": "ms",
+            "firstName": "Sara",
+            "lastName": "Andersen"
+        },
+        {
+            "id": "63c1130cf4d3b2573e659f28",
+            "title": "ms",
+            "firstName": "Sara",
+            "lastName": "Andersen"
+        },
+        {
+            "id": "63c113216952cb0e4999dc9a",
+            "title": "ms",
+            "firstName": "Sara",
+            "lastName": "Andersen"
+        },
+        {
+            "id": "63c11349f4d3b2b838659f44",
+            "title": "ms",
+            "firstName": "Sara",
+            "lastName": "Andersen"
+        },
+        {
+            "id": "63c1280c6952cbf17499ede6",
+            "title": "ms",
+            "firstName": "Sara",
+            "lastName": "Andersen"
+        },
+        {
+            "id": "63c136606952cb49f799f39d",
+            "title": "ms",
+            "firstName": "Sara",
+            "lastName": "Andersen"
+        },
+        {
+            "id": "63c4e94b4f923760c8cb8b3e",
+            "title": "ms",
+            "firstName": "Sara",
+            "lastName": "Andersen"
+        }
+    ],
+    "total": 73,
+    "page": 0,
+    "limit": 10
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

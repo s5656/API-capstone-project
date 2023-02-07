@@ -28,13 +28,13 @@ dependencies {
 test {
     useTestNG()
     testLogging {
-        events "passed", "skipped", "failed"
+        events "PASSED", "SKIPPED", "FAILED"
         showStandardStreams = true
     }
     systemProperties System.properties
 }
 java {
     modularity.inferModulePath = true
-    toolchain { languageVersion.set(JavaLanguageVersion.of(11)) }
+    toolchain { languageVersion.set(JavaLanguageVersion.of(18)) }
 
 }

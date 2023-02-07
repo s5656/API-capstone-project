@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="user.tests.CreateUserTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-07T05:53:02" hostname="TestVagrants-MacBook-Pro.local" time="0.37">
+  <properties/>
+  <testcase name="shouldCreateAnUser" classname="user.tests.CreateUserTest" time="0.37"/>
+  <system-out><![CDATA[{
+    "id": "63e1e73f3425cfe43d90da59",
+    "title": "mr",
+    "firstName": "Sumit",
+    "lastName": "Chavan",
+    "email": "1bd3009e-54b6-4ba4-b952-3ec49f00e3e7@gmail.com",
+    "registerDate": "2023-02-07T05:53:03.138Z",
+    "updatedDate": "2023-02-07T05:53:03.138Z"
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

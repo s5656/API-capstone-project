@@ -1,0 +1,332 @@
+{
+&    "id": "63e1e7343425cf9df390da1d",
+    "title": "mr",
+    "firstName": "Sumit",
+    "lastName": "Chavan",
+?    "email": "340cda36-8bed-4c4c-a360-216e23b62fa1@gmail.com",
+0    "registerDate": "2023-02-07T05:52:52.406Z",
+.    "updatedDate": "2023-02-07T05:52:52.406Z"
+}
+{
+&    "id": "63e1e7353425cf964890da23",
+M    "image": "https://img.dummyapi.io/photo-1564694202779-bc908c327862.jpg",
+    "likes": 0,
+    "link": "",
+    "tags": [
+        "animal",
+        "dog",
+        "golden retriever"
+    ],
+(    "text": "adult Labrador retriever",
+/    "publishDate": "2023-02-07T05:52:53.026Z",
+/    "updatedDate": "2023-02-07T05:52:53.026Z",
+    "owner": {
+*        "id": "63da5a502bea7749fb67bc7a",
+        "title": "mr",
+        "firstName": "Sumit",
+        "lastName": "Chavan"
+    }
+}
+{
+&    "id": "63e1e7353425cf964890da23",
+M    "image": "https://img.dummyapi.io/photo-1564694202779-bc908c327862.jpg",
+    "likes": 0,
+    "link": "",
+    "tags": [
+        "animal",
+        "dog",
+        "golden retriever"
+    ],
+(    "text": "adult Labrador retriever",
+/    "publishDate": "2023-02-07T05:52:53.026Z",
+/    "updatedDate": "2023-02-07T05:52:53.026Z",
+    "owner": {
+*        "id": "63da5a502bea7749fb67bc7a",
+        "title": "mr",
+        "firstName": "Sumit",
+        "lastName": "Chavan"
+    }
+}
+{
+%    "id": "63e1e7353425cf964890da23"
+}
+{
+    "data": [
+
+        {
+.            "id": "63bfec69b91006f0d66f0c0f",
+            "title": "ms",
+!            "firstName": "Sara",
+$            "lastName": "Andersen",
+J            "picture": "https://randomuser.me/api/portraits/women/58.jpg"
+        },
+
+        {
+.            "id": "63c11242f4d3b2c45b659ed1",
+            "title": "ms",
+!            "firstName": "Sara",
+#            "lastName": "Andersen"
+        },
+
+        {
+.            "id": "63c1127cf4d3b20603659f04",
+            "title": "ms",
+!            "firstName": "Sara",
+#            "lastName": "Andersen"
+        },
+
+        {
+.            "id": "63c112c0f4d3b24558659f20",
+            "title": "ms",
+!            "firstName": "Sara",
+#            "lastName": "Andersen"
+        },
+
+        {
+.            "id": "63c1130cf4d3b2573e659f28",
+            "title": "ms",
+!            "firstName": "Sara",
+#            "lastName": "Andersen"
+        },
+
+        {
+.            "id": "63c113216952cb0e4999dc9a",
+            "title": "ms",
+!            "firstName": "Sara",
+#            "lastName": "Andersen"
+        },
+
+        {
+.            "id": "63c11349f4d3b2b838659f44",
+            "title": "ms",
+!            "firstName": "Sara",
+#            "lastName": "Andersen"
+        },
+
+        {
+.            "id": "63c1280c6952cbf17499ede6",
+            "title": "ms",
+!            "firstName": "Sara",
+#            "lastName": "Andersen"
+        },
+
+        {
+.            "id": "63c136606952cb49f799f39d",
+            "title": "ms",
+!            "firstName": "Sara",
+#            "lastName": "Andersen"
+        },
+
+        {
+.            "id": "63c4e94b4f923760c8cb8b3e",
+            "title": "ms",
+!            "firstName": "Sara",
+#            "lastName": "Andersen"
+
+        }
+    ],
+    "total": 73,
+    "page": 0,
+    "limit": 10
+}
+{
+&    "id": "63e1e73c3425cf2d3590da39",
+M    "image": "https://img.dummyapi.io/photo-1564694202779-bc908c327862.jpg",
+    "likes": 0,
+    "link": "",
+    "tags": [
+        "animal",
+        "dog",
+        "golden retriever"
+    ],
+(    "text": "adult Labrador retriever",
+/    "publishDate": "2023-02-07T05:53:00.320Z",
+/    "updatedDate": "2023-02-07T05:53:00.320Z",
+    "owner": {
+*        "id": "63da5a502bea7749fb67bc7a",
+        "title": "mr",
+        "firstName": "Sumit",
+        "lastName": "Chavan"
+    }
+}
+{
+&    "id": "63e1e73c3425cf769b90da3f",
+M    "image": "https://img.dummyapi.io/photo-1564694202779-bc908c327862.jpg",
+    "likes": 0,
+    "link": "",
+    "tags": [
+        "animal",
+        "dog",
+        "golden retriever"
+    ],
+(    "text": "adult Labrador retriever",
+/    "publishDate": "2023-02-07T05:53:00.789Z",
+/    "updatedDate": "2023-02-07T05:53:00.789Z",
+    "owner": {
+*        "id": "63da5a502bea7749fb67bc7a",
+        "title": "mr",
+        "firstName": "Sumit",
+        "lastName": "Chavan"
+    }
+}
+{
+%    "id": "63e1e73c3425cf769b90da3f"
+}
+{
+&    "id": "63e1e73d3425cf5aca90da49",
+M    "image": "https://img.dummyapi.io/photo-1564694202779-bc908c327862.jpg",
+    "likes": 0,
+    "link": "",
+    "tags": [
+        "animal",
+        "dog",
+        "golden retriever"
+    ],
+(    "text": "adult Labrador retriever",
+/    "publishDate": "2023-02-07T05:53:01.608Z",
+/    "updatedDate": "2023-02-07T05:53:01.608Z",
+    "owner": {
+*        "id": "63da5a502bea7749fb67bc7a",
+        "title": "mr",
+        "firstName": "Sumit",
+        "lastName": "Chavan"
+    }
+}
+{
+&    "id": "63e1e73d3425cf5aca90da49",
+M    "image": "https://img.dummyapi.io/photo-1564694202779-bc908c327862.jpg",
+    "likes": 0,
+    "link": "",
+    "tags": [
+        "animal",
+        "dog",
+        "golden retriever"
+    ],
+(    "text": "adult Labrador retriever",
+/    "publishDate": "2023-02-07T05:53:01.608Z",
+/    "updatedDate": "2023-02-07T05:53:01.608Z",
+    "owner": {
+*        "id": "63da5a502bea7749fb67bc7a",
+        "title": "mr",
+        "firstName": "Sumit",
+        "lastName": "Chavan"
+    }
+}
+
+	{
+
+	&    "id": "63e1e73e3425cf22fd90da53",
+
+	    "title": "mr",
+
+	    "firstName": "Sumit",
+
+	    "lastName": "Chavan",
+
+	?    "email": "8901147f-9a0c-4f12-a348-06dc517c9529@gmail.com",
+
+	0    "registerDate": "2023-02-07T05:53:02.385Z",
+
+	.    "updatedDate": "2023-02-07T05:53:02.385Z"
+
+	}
+
+	{
+
+	    "error": "BODY_NOT_VALID",
+
+	    "data": {
+
+	&        "email": "Email already used"
+
+	    }
+
+	}
+{
+&    "id": "63e1e73f3425cfe43d90da59",
+    "title": "mr",
+    "firstName": "Sumit",
+    "lastName": "Chavan",
+?    "email": "1bd3009e-54b6-4ba4-b952-3ec49f00e3e7@gmail.com",
+0    "registerDate": "2023-02-07T05:53:03.138Z",
+.    "updatedDate": "2023-02-07T05:53:03.138Z"
+}
+{
+    "data": [
+
+        {
+.            "id": "63bfec69b91006f0d66f0c0f",
+            "title": "ms",
+!            "firstName": "Sara",
+$            "lastName": "Andersen",
+J            "picture": "https://randomuser.me/api/portraits/women/58.jpg"
+        },
+
+        {
+.            "id": "63c11242f4d3b2c45b659ed1",
+            "title": "ms",
+!            "firstName": "Sara",
+#            "lastName": "Andersen"
+        },
+
+        {
+.            "id": "63c1127cf4d3b20603659f04",
+            "title": "ms",
+!            "firstName": "Sara",
+#            "lastName": "Andersen"
+        },
+
+        {
+.            "id": "63c112c0f4d3b24558659f20",
+            "title": "ms",
+!            "firstName": "Sara",
+#            "lastName": "Andersen"
+        },
+
+        {
+.            "id": "63c1130cf4d3b2573e659f28",
+            "title": "ms",
+!            "firstName": "Sara",
+#            "lastName": "Andersen"
+        },
+
+        {
+.            "id": "63c113216952cb0e4999dc9a",
+            "title": "ms",
+!            "firstName": "Sara",
+#            "lastName": "Andersen"
+        },
+
+        {
+.            "id": "63c11349f4d3b2b838659f44",
+            "title": "ms",
+!            "firstName": "Sara",
+#            "lastName": "Andersen"
+        },
+
+        {
+.            "id": "63c1280c6952cbf17499ede6",
+            "title": "ms",
+!            "firstName": "Sara",
+#            "lastName": "Andersen"
+        },
+
+        {
+.            "id": "63c136606952cb49f799f39d",
+            "title": "ms",
+!            "firstName": "Sara",
+#            "lastName": "Andersen"
+        },
+
+        {
+.            "id": "63c4e94b4f923760c8cb8b3e",
+            "title": "ms",
+!            "firstName": "Sara",
+#            "lastName": "Andersen"
+
+        }
+    ],
+    "total": 75,
+    "page": 0,
+    "limit": 10
+}
