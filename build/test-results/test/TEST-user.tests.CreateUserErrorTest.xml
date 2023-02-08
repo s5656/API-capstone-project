@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="user.tests.CreateUserErrorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-08T10:29:06" hostname="TestVagrants-MacBook-Pro.local" time="1.014">
+  <properties/>
+  <testcase name="shouldNotAllowUserWithInvalidEmail" classname="user.tests.CreateUserErrorTest" time="1.014"/>
+  <system-out><![CDATA[{
+    "id": "63e379721b7900c43a40a47a",
+    "title": "mr",
+    "firstName": "Sumit",
+    "lastName": "Chavan",
+    "email": "1e4d7e7c-7c34-47ee-a761-970d0037e748@gmail.com",
+    "registerDate": "2023-02-08T10:29:06.778Z",
+    "updatedDate": "2023-02-08T10:29:06.778Z"
+}
+{
+    "error": "BODY_NOT_VALID",
+    "data": {
+        "email": "Email already used"
+    }
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

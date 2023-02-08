@@ -1,58 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="endtoEndTest.IntegrationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-07T12:22:52" hostname="TestVagrants-MacBook-Pro.local" time="6.874">
+<testsuite name="endtoEndTest.IntegrationTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-02-08T10:28:54" hostname="TestVagrants-MacBook-Pro.local" time="8.555">
   <properties/>
-  <testcase name="shouldCreateGetAndDeletePostAndUser" classname="endtoEndTest.IntegrationTests" time="6.874"/>
+  <testcase name="shouldCreateAndGetPostDetails" classname="endtoEndTest.IntegrationTests" time="6.527"/>
+  <testcase name="shouldCreateAndGetUserDetails" classname="endtoEndTest.IntegrationTests" time="1.2"/>
+  <testcase name="shouldDeleteThePost" classname="endtoEndTest.IntegrationTests" time="0.676"/>
   <system-out><![CDATA[{
-    "id": "63e242a00db0c29f40034c69",
+    "id": "63e3796c1b79001e5d40a441",
+    "image": "https://img.dummyapi.io/photo-1564694202779-bc908c327862.jpg",
+    "likes": 0,
+    "link": "",
+    "tags": [
+        "animal",
+        "dog",
+        "golden retriever"
+    ],
+    "text": "adult Labrador retriever",
+    "publishDate": "2023-02-08T10:29:00.055Z",
+    "updatedDate": "2023-02-08T10:29:00.055Z",
+    "owner": {
+        "id": "63da5a502bea7749fb67bc7a",
+        "title": "mr",
+        "firstName": "Sumit",
+        "lastName": "Chavan"
+    }
+}
+{
+    "id": "63e3796c1b79001e5d40a441",
+    "image": "https://img.dummyapi.io/photo-1564694202779-bc908c327862.jpg",
+    "likes": 0,
+    "link": "",
+    "tags": [
+        "animal",
+        "dog",
+        "golden retriever"
+    ],
+    "text": "adult Labrador retriever",
+    "publishDate": "2023-02-08T10:29:00.055Z",
+    "updatedDate": "2023-02-08T10:29:00.055Z",
+    "owner": {
+        "id": "63da5a502bea7749fb67bc7a",
+        "title": "mr",
+        "firstName": "Sumit",
+        "lastName": "Chavan"
+    }
+}
+{
+    "id": "63e3796d1b7900388e40a44b",
     "title": "mr",
     "firstName": "Sumit",
     "lastName": "Chavan",
-    "email": "66cd41df-e012-4929-b405-a8fcc485f785@gmail.com",
-    "registerDate": "2023-02-07T12:22:56.814Z",
-    "updatedDate": "2023-02-07T12:22:56.814Z"
-}
-{
-    "id": "63e242a10386ff0210e208ab",
-    "image": "https://img.dummyapi.io/photo-1564694202779-bc908c327862.jpg",
-    "likes": 0,
-    "link": "",
-    "tags": [
-        "animal",
-        "dog",
-        "golden retriever"
-    ],
-    "text": "adult Labrador retriever",
-    "publishDate": "2023-02-07T12:22:57.627Z",
-    "updatedDate": "2023-02-07T12:22:57.627Z",
-    "owner": {
-        "id": "63da5a502bea7749fb67bc7a",
-        "title": "mr",
-        "firstName": "Sumit",
-        "lastName": "Chavan"
-    }
-}
-{
-    "id": "63e242a10386ff0210e208ab",
-    "image": "https://img.dummyapi.io/photo-1564694202779-bc908c327862.jpg",
-    "likes": 0,
-    "link": "",
-    "tags": [
-        "animal",
-        "dog",
-        "golden retriever"
-    ],
-    "text": "adult Labrador retriever",
-    "publishDate": "2023-02-07T12:22:57.627Z",
-    "updatedDate": "2023-02-07T12:22:57.627Z",
-    "owner": {
-        "id": "63da5a502bea7749fb67bc7a",
-        "title": "mr",
-        "firstName": "Sumit",
-        "lastName": "Chavan"
-    }
-}
-{
-    "id": "63e242a10386ff0210e208ab"
+    "email": "32503a54-f601-4771-94e5-66a04e51a270@gmail.com",
+    "registerDate": "2023-02-08T10:29:01.624Z",
+    "updatedDate": "2023-02-08T10:29:01.624Z"
 }
 {
     "data": [
@@ -127,9 +126,12 @@
             "picture": "https://randomuser.me/api/portraits/med/men/7.jpg"
         }
     ],
-    "total": 194,
+    "total": 204,
     "page": 0,
     "limit": 10
+}
+{
+    "id": "63e3796c1b79001e5d40a441"
 }
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>

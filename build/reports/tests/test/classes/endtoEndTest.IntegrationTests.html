@@ -23,7 +23,7 @@
 <tr>
 <td>
 <div class="infoBox" id="tests">
-<div class="counter">1</div>
+<div class="counter">3</div>
 <p>tests</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">6.874s</div>
+<div class="counter">8.403s</div>
 <p>duration</p>
 </div>
 </td>
@@ -78,8 +78,18 @@
 </tr>
 </thead>
 <tr>
-<td class="success">shouldCreateGetAndDeletePostAndUser</td>
-<td class="success">6.874s</td>
+<td class="success">shouldCreateAndGetPostDetails</td>
+<td class="success">6.527s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldCreateAndGetUserDetails</td>
+<td class="success">1.200s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldDeleteThePost</td>
+<td class="success">0.676s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -88,56 +98,53 @@
 <h2>Standard output</h2>
 <span class="code">
 <pre>{
-    &quot;id&quot;: &quot;63e242a00db0c29f40034c69&quot;,
+    &quot;id&quot;: &quot;63e3796c1b79001e5d40a441&quot;,
+    &quot;image&quot;: &quot;https://img.dummyapi.io/photo-1564694202779-bc908c327862.jpg&quot;,
+    &quot;likes&quot;: 0,
+    &quot;link&quot;: &quot;&quot;,
+    &quot;tags&quot;: [
+        &quot;animal&quot;,
+        &quot;dog&quot;,
+        &quot;golden retriever&quot;
+    ],
+    &quot;text&quot;: &quot;adult Labrador retriever&quot;,
+    &quot;publishDate&quot;: &quot;2023-02-08T10:29:00.055Z&quot;,
+    &quot;updatedDate&quot;: &quot;2023-02-08T10:29:00.055Z&quot;,
+    &quot;owner&quot;: {
+        &quot;id&quot;: &quot;63da5a502bea7749fb67bc7a&quot;,
+        &quot;title&quot;: &quot;mr&quot;,
+        &quot;firstName&quot;: &quot;Sumit&quot;,
+        &quot;lastName&quot;: &quot;Chavan&quot;
+    }
+}
+{
+    &quot;id&quot;: &quot;63e3796c1b79001e5d40a441&quot;,
+    &quot;image&quot;: &quot;https://img.dummyapi.io/photo-1564694202779-bc908c327862.jpg&quot;,
+    &quot;likes&quot;: 0,
+    &quot;link&quot;: &quot;&quot;,
+    &quot;tags&quot;: [
+        &quot;animal&quot;,
+        &quot;dog&quot;,
+        &quot;golden retriever&quot;
+    ],
+    &quot;text&quot;: &quot;adult Labrador retriever&quot;,
+    &quot;publishDate&quot;: &quot;2023-02-08T10:29:00.055Z&quot;,
+    &quot;updatedDate&quot;: &quot;2023-02-08T10:29:00.055Z&quot;,
+    &quot;owner&quot;: {
+        &quot;id&quot;: &quot;63da5a502bea7749fb67bc7a&quot;,
+        &quot;title&quot;: &quot;mr&quot;,
+        &quot;firstName&quot;: &quot;Sumit&quot;,
+        &quot;lastName&quot;: &quot;Chavan&quot;
+    }
+}
+{
+    &quot;id&quot;: &quot;63e3796d1b7900388e40a44b&quot;,
     &quot;title&quot;: &quot;mr&quot;,
     &quot;firstName&quot;: &quot;Sumit&quot;,
     &quot;lastName&quot;: &quot;Chavan&quot;,
-    &quot;email&quot;: &quot;66cd41df-e012-4929-b405-a8fcc485f785@gmail.com&quot;,
-    &quot;registerDate&quot;: &quot;2023-02-07T12:22:56.814Z&quot;,
-    &quot;updatedDate&quot;: &quot;2023-02-07T12:22:56.814Z&quot;
-}
-{
-    &quot;id&quot;: &quot;63e242a10386ff0210e208ab&quot;,
-    &quot;image&quot;: &quot;https://img.dummyapi.io/photo-1564694202779-bc908c327862.jpg&quot;,
-    &quot;likes&quot;: 0,
-    &quot;link&quot;: &quot;&quot;,
-    &quot;tags&quot;: [
-        &quot;animal&quot;,
-        &quot;dog&quot;,
-        &quot;golden retriever&quot;
-    ],
-    &quot;text&quot;: &quot;adult Labrador retriever&quot;,
-    &quot;publishDate&quot;: &quot;2023-02-07T12:22:57.627Z&quot;,
-    &quot;updatedDate&quot;: &quot;2023-02-07T12:22:57.627Z&quot;,
-    &quot;owner&quot;: {
-        &quot;id&quot;: &quot;63da5a502bea7749fb67bc7a&quot;,
-        &quot;title&quot;: &quot;mr&quot;,
-        &quot;firstName&quot;: &quot;Sumit&quot;,
-        &quot;lastName&quot;: &quot;Chavan&quot;
-    }
-}
-{
-    &quot;id&quot;: &quot;63e242a10386ff0210e208ab&quot;,
-    &quot;image&quot;: &quot;https://img.dummyapi.io/photo-1564694202779-bc908c327862.jpg&quot;,
-    &quot;likes&quot;: 0,
-    &quot;link&quot;: &quot;&quot;,
-    &quot;tags&quot;: [
-        &quot;animal&quot;,
-        &quot;dog&quot;,
-        &quot;golden retriever&quot;
-    ],
-    &quot;text&quot;: &quot;adult Labrador retriever&quot;,
-    &quot;publishDate&quot;: &quot;2023-02-07T12:22:57.627Z&quot;,
-    &quot;updatedDate&quot;: &quot;2023-02-07T12:22:57.627Z&quot;,
-    &quot;owner&quot;: {
-        &quot;id&quot;: &quot;63da5a502bea7749fb67bc7a&quot;,
-        &quot;title&quot;: &quot;mr&quot;,
-        &quot;firstName&quot;: &quot;Sumit&quot;,
-        &quot;lastName&quot;: &quot;Chavan&quot;
-    }
-}
-{
-    &quot;id&quot;: &quot;63e242a10386ff0210e208ab&quot;
+    &quot;email&quot;: &quot;32503a54-f601-4771-94e5-66a04e51a270@gmail.com&quot;,
+    &quot;registerDate&quot;: &quot;2023-02-08T10:29:01.624Z&quot;,
+    &quot;updatedDate&quot;: &quot;2023-02-08T10:29:01.624Z&quot;
 }
 {
     &quot;data&quot;: [
@@ -212,9 +219,12 @@
             &quot;picture&quot;: &quot;https://randomuser.me/api/portraits/med/men/7.jpg&quot;
         }
     ],
-    &quot;total&quot;: 194,
+    &quot;total&quot;: 204,
     &quot;page&quot;: 0,
     &quot;limit&quot;: 10
+}
+{
+    &quot;id&quot;: &quot;63e3796c1b79001e5d40a441&quot;
 }
 </pre>
 </span>
@@ -227,7 +237,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 7.5.1</a> at 7 Feb 2023, 17:52:59</p>
+<a href="http://www.gradle.org">Gradle 7.6</a> at 8 Feb 2023, 15:59:08</p>
 </div>
 </div>
 </body>

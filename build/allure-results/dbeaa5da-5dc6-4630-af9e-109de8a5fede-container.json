@@ -1,1 +1,0 @@
-{"uuid":"dbeaa5da-5dc6-4630-af9e-109de8a5fede","name":"post.tests.CreatePostTest","children":["ab96e0c1-08dd-43e0-8b49-cc08fbc2584c"],"befores":[{"name":"beforeClass","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1675772130712,"stop":1675772130721}],"afters":[],"start":1675772130636,"stop":1675772132486}
